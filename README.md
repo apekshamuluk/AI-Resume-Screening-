@@ -26,3 +26,27 @@ It helps recruiters quickly identify the most relevant candidates by comparing r
 ---
 
 ## 📂 Project Structure
+AI-Resume-Screening/
+│
+├── src/
+│ ├── parser.py
+│ ├── preprocess.py
+│ ├── vectorizer.py
+│ ├── matcher.py
+│ └── ranker.py
+│
+├── notebook.ipynb
+├── requirements.txt
+└── README.md
+
+---
+
+## ⚙️ How It Works
+1. Upload multiple resumes (PDF)
+2. Enter job description
+3. Extract and preprocess text
+4. Convert text into vectors using TF-IDF
+5. Compute cosine similarity
+6. Rank resumes based on similarity score
+
+---
