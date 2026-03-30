@@ -1,19 +1,28 @@
-# AI Resume Screening System
+# 🤖 AI Resume Screening System
 
-This project ranks resumes based on job description using NLP.
+## 📌 Description
+This project is an AI-based Resume Screening System that analyzes and ranks resumes based on a given job description using Natural Language Processing (NLP).
 
-## Features
-- Extract text from PDF
-- Clean and preprocess text
-- Convert text using TF-IDF
-- Compute similarity using cosine similarity
-- Rank resumes
+It helps recruiters quickly identify the most relevant candidates by comparing resume content with job requirements.
 
-## Tech Stack
-Python, NLTK, Scikit-learn
+---
 
-## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+## 🚀 Features
+- Extract text from PDF resumes  
+- Clean and preprocess text  
+- Convert text using TF-IDF  
+- Compute similarity using cosine similarity  
+- Rank resumes based on relevance score  
 
-2. Run notebook.ipynb
+---
+
+## 🛠️ Tech Stack
+- Python  
+- NLTK  
+- Scikit-learn  
+- TF-IDF  
+- Cosine Similarity  
+
+---
+
+## 📂 Project Structure
